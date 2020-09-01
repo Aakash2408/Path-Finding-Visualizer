@@ -1,0 +1,107 @@
+.grid-cell {
+    width: 30px;
+    height: 32px;
+    margin: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    background-clip: padding-box;
+    -moz-background-clip: padding-box;
+  
+    &.grid-border {
+      border: 1px solid rgba(136, 136, 136, 0.5) !important;
+    }
+  
+    &.floor {
+      background: url("../../assets/tiles/path_grey.png") repeat;
+      background-size: contain;
+  
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  
+    &.wall {
+      background: url("../../assets/tiles/wall_red.png") repeat;
+      background-size: contain;
+    }
+  
+    &.player {
+      background: url("../../assets/player/player.png") no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+  
+    &.target {
+      background: url("../../assets/player/cherry.png") no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+  
+    &.weight {
+      background: url("../../assets/tiles/weight.png") no-repeat;
+      background-size: contain;
+      width: 10px;
+      background-position: center;
+    }
+  
+    &.visited {
+      opacity: 1;
+      animation-name: visited;
+      animation-duration: 1.5s;
+      animation-timing-function: ease-out;
+      animation-direction: alternate;
+      animation-iteration-count: 1;
+      animation-fill-mode: forwards;
+      animation-play-state: running;
+    }
+  
+    &.shortest-path {
+      opacity: 1;
+      animation-name: shortest-path;
+      animation-duration: 1.5s;
+      animation-timing-function: ease-out;
+      animation-direction: alternate;
+      animation-iteration-count: 1;
+      animation-fill-mode: forwards;
+      animation-play-state: running;
+    }
+  
+    @keyframes visited {
+      0% {
+        transform: scale(0.3);
+        background-color: rgb(32, 32, 32);
+        border-radius: 100%;
+      }
+      50% {
+        background-color: rgb(0, 190, 218);
+      }
+      75% {
+        transform: scale(1.2);
+        background-color: rgb(51, 53, 145);
+      }
+      100% {
+        transform: scale(1);
+        background-color: rgb(67, 54, 179);
+      }
+    }
+  
+    @keyframes shortest-path {
+      0% {
+        transform: scale(0.3);
+        background-color: rgb(32, 32, 32);
+        border-radius: 100%;
+      }
+      50% {
+        background-color: rgb(0, 218, 47);
+      }
+      75% {
+        transform: scale(1.2);
+        background-color: rgb(101, 145, 51);
+      }
+      100% {
+        transform: scale(1);
+        background-color: rgb(233, 230, 79);
+      }
+    }
+  }
+  
