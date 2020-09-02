@@ -12,7 +12,7 @@
     }
   
     &.floor {
-      background: url("../../assets/tiles/path_grey.png") repeat;
+      background-image: url("https://www.dropbox.com/s/2ct0i6kc61vp0bh/wall.jpg?raw=1") ;
       background-size: contain;
   
       &:hover {
@@ -26,13 +26,13 @@
     }
   
     &.player {
-      background: url("../../assets/player/player.png") no-repeat;
+      background: url("../../assets/tiles/car.png") no-repeat;
       background-size: cover;
       background-position: center;
     }
   
     &.target {
-      background: url("../../assets/player/cherry.png") no-repeat;
+      background: url("../../assets/tiles/home.png") no-repeat;
       background-size: cover;
       background-position: center;
     }

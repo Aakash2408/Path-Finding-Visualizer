@@ -1,26 +1,38 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import Home from "./pages/Home";
+// import Tutorial from "./components/tutorial/Tutorial";
+import { connect } from "react-redux";
+import { openModal } from "./redux/modal/ModalActions";
+import "./App.css";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  componentDidMount() {
+    const { modalOpen } = this.props;
+    modalOpen(
+      <div
+        style={{
+          backgroundColor: "#2f2f2f",
+          border: "5px solid white",
+          borderRadius: "40px",
+        }}
+      >
+        {/* <Tutorial></Tutorial> */}
+      </div>
+    );
+  }
+
+  render() {
+    return (
+      <div className="App">
+        <Home></Home>
+        {/* <Modal></Modal> */}
+      </div>
+    );
+  }
 }
 
-export default App;
+const mapDispatchToProps = (dispatch) => ({
+  modalOpen: (body) => dispatch(openModal(body)),
+});
+
+export default connect(null, mapDispatchToProps)(App);

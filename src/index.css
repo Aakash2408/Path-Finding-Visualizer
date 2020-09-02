@@ -1,13 +1,34 @@
-body {
+@import url("./bootstrap.min.css");
+
+@font-face {
+  font-family: Squirk;
+  src: url("./assets/fonts/Squirk-RMvV.ttf");
+}
+
+html,
+body,
+#root,
+.App {
+  height: 100%;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+}
+
+body {
+  font-family: "Rubrik", sans-serif;
+  letter-spacing: 3px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+span.squirk {
+  font-family: "Squirk";
+  font-size: 26px;
+  color: #204256;
+  font-weight: 400;
+  letter-spacing: 3px;
+}
+
+.table td,
+.table th {
+  border: none;
 }
