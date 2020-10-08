@@ -150,7 +150,7 @@ function NavBar(props) {
     selectMaze(index);
   };
   const onGitHubClick = () => {
-    window.open("https://github.com/aarnav982023/PathfindingVis", "_blank");
+    window.open("https://github.com/aakash2408", "_blank");
   };
 
   const drawer = (

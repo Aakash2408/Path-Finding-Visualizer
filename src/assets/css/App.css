@@ -39,8 +39,8 @@
   background-position: 50% 50%;
 }
 .wall {
-  background-image: linear-gradient(black, black) !important;
-  border: 0.1px solid black;
+  background-image: url("http://clipart-library.com/img1/1071741.png") !important;
+  border: 0.1px solid black !important;
 }
 .shortest-path {
   background-image: linear-gradient(var(--shortest), var(--shortest));
