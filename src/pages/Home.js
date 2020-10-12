@@ -28,7 +28,7 @@ class Home extends Component {
       <div className="home">
         <div className="top">
           <div>
-            <h1 className="title">Graph Visualizer</h1>
+            <h1 className="title">Pathfinding Visualizer</h1>
           </div>
           <div className="top-button-container">
             <div>
@@ -70,7 +70,7 @@ class Home extends Component {
             </div>
           </div>
         </div>
-        <div className="middle"></div>
+        {/* <div className="middle"></div> */}
         <div className="bottom">
           
           <div className="grid-container-parent">

@@ -12,7 +12,7 @@
   }
 
   &.floor {
-    background: url("../../assets/tiles/path_grey.png") repeat;
+    background:#222b45 ;
     background-size: contain;
 
     &:hover {
@@ -26,13 +26,13 @@
   }
 
   &.player {
-    background: url("../../assets/player/cat.png") no-repeat;
+    background: url("../../assets/player/car.png") no-repeat;
     background-size: cover;
     background-position: center;
   }
 
   &.target {
-    background: url("../../assets/player/mouse.png") no-repeat;
+    background: url("../../assets/player/home.png") no-repeat;
     background-size: cover;
     background-position: center;
   }
