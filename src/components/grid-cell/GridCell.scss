@@ -1,5 +1,5 @@
 .grid-cell {
-  width: 126px !important;
+  width: 10px !important;
   height: 30px;
   margin: 5px;
   box-sizing: border-box;
@@ -21,7 +21,7 @@
   }
 
   &.wall {
-    background: url("../../assets/tiles/wall_red.png") repeat;
+    background: black repeat;
     background-size: contain;
   }
 

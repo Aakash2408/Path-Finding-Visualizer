@@ -129,8 +129,8 @@
       border-radius: 40px;
       background-image: #222b45 !important;
       background-size: 32px;
-      background-repeat: repeat;
-      margin-left: 20px;
+      // background-repeat: repeat;
+      margin-right: 20% !important;
       padding: 16px 20px 24px 20px;
       position: relative;
       display: flex;
@@ -198,7 +198,7 @@
     }
 
     .grid-container-parent {
-      width: 73%;
+      // width: 73%;
       padding-right: 20px;
 
       @media (max-width: 1366px) {
