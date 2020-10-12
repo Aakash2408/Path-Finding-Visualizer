@@ -1,0 +1,209 @@
+.home {
+  background-image: url("../assets/tiles/backgroundEmpty.png");
+  width: 100%;
+  height: 100%;
+  position: relative;
+
+  .top {
+    width: 100%;
+    height: 10%;
+    background-image: url("../assets/tiles/backgroundForest.png");
+    background-size: contain;
+    background-repeat: repeat-x;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    .title {
+      color: #283593;
+      padding: 0 20px;
+      text-decoration: underline;
+      text-decoration-style: dashed;
+      flex-grow: 2;
+    }
+
+    .top-button-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-grow: 1;
+    }
+
+    .create-maze {
+      background: url("../assets/buttons/blue_button_normal.png") no-repeat;
+      margin-right: 20px;
+      width: fit-content;
+      height: 49px;
+      border: none;
+      margin: 0 30px;
+
+      &:hover {
+        opacity: 0.9;
+      }
+      &:focus {
+        outline: none;
+      }
+      &:active {
+        background: url("../assets/buttons/blue_button_pressed.png") no-repeat;
+      }
+      &:disabled {
+        pointer-events: none;
+        opacity: 0.5;
+      }
+    }
+
+    .create-weights {
+      background: url("../assets/buttons/green_button_normal.png") no-repeat;
+      margin-right: 20px;
+      width: fit-content;
+      height: 49px;
+      border: none;
+      margin: 0 30px;
+
+      &:hover {
+        opacity: 0.9;
+      }
+      &:focus {
+        outline: none;
+      }
+      &:active {
+        background: url("../assets/buttons/green_button_pressed.png") no-repeat;
+      }
+      &:disabled {
+        pointer-events: none;
+        opacity: 0.5;
+      }
+    }
+
+    .clear-board {
+      background: url("../assets/buttons/red_button_normal.png") no-repeat;
+      margin-right: 20px;
+      width: fit-content;
+      height: 49px;
+      border: none;
+      margin: 0 30px;
+
+      &:hover {
+        opacity: 0.9;
+      }
+      &:focus {
+        outline: none;
+      }
+      &:active {
+        background: url("../assets/buttons/red_button_pressed.png") no-repeat;
+      }
+      &:disabled {
+        pointer-events: none;
+        opacity: 0.5;
+      }
+    }
+  }
+  .middle {
+    width: 100%;
+    height: 4%;
+    background-image: url("../assets/tiles/platformPack_tile001.png");
+    background-size: contain;
+    background-repeat: repeat-x;
+    position: absolute;
+    top: 10%;
+    left: 0;
+  }
+
+  .bottom {
+    width: 100%;
+    height: 86%;
+    background-image: url("../assets/tiles/platformPack_tile004.png");
+    background-repeat: repeat;
+    position: absolute;
+    top: 14%;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+
+    .filter-container {
+      width: 100%;
+      border: 5px solid white;
+      border-radius: 40px;
+      background-image: url("../assets/tiles/path_grey.png");
+      background-size: 32px;
+      background-repeat: repeat;
+      margin-left: 20px;
+      padding: 16px 20px 24px 20px;
+      position: relative;
+      display: flex;
+      justify-content: center;
+    }
+
+    .show-tutorial {
+      position: relative;
+      margin-left: 30px;
+      margin-top: 30px;
+      justify-content: center;
+      display: flex;
+
+      .idea-icon {
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        top: 4px;
+        left: 10px;
+      }
+
+      button {
+        background: url("../assets/buttons/green_button_normal.png") no-repeat;
+        width: 200px;
+        height: 49px;
+        border: none;
+        color: #fff;
+        position: relative;
+
+        &:hover {
+          opacity: 0.9;
+        }
+        &:focus {
+          outline: none;
+        }
+        &:active {
+          background: url("../assets/buttons/green_button_pressed.png")
+            no-repeat;
+        }
+        &:disabled {
+          pointer-events: none;
+          opacity: 0.5;
+        }
+      }
+    }
+
+    .github {
+      margin-top: 80px;
+      display: flex;
+      justify-content: center;
+      img {
+        width: 40px;
+        height: 40px;
+      }
+
+      a,
+      a:active,
+      a:visited {
+        color: white;
+        text-decoration: none;
+        font-family: "Roboto", sans-serif;
+        font-weight: bold;
+        text-align: center;
+      }
+    }
+
+    .grid-container-parent {
+      width: 73%;
+      padding-right: 20px;
+
+      @media (max-width: 1366px) {
+        width: 76%;
+      }
+    }
+  }
+}

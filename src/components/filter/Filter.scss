@@ -1,0 +1,59 @@
+.filter {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  .title {
+    color: white;
+    text-align: center;
+  }
+
+  .alg-info {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin: 20px 0 0 0;
+    border: 4px dashed white;
+    padding: 5px;
+
+    .complexity {
+      color: darkslateblue;
+      font-weight: bold;
+    }
+  }
+
+  select {
+    width: 200px;
+  }
+
+  .visualize-btn {
+    background: url("../../assets/buttons/yellow_button_normal.png");
+    width: 190px;
+    height: 49px;
+    border: none;
+    margin-top: 45px;
+
+    &:hover:not(:disabled) {
+      opacity: 0.9;
+
+      span.squirk {
+        color: rgb(100, 98, 98);
+      }
+    }
+    &:focus {
+      outline: none;
+    }
+    &:active:not(:disabled) {
+      background: url("../../assets/buttons/yellow_button_pressed.png");
+    }
+
+    &:disabled {
+      opacity: 0.5;
+    }
+  }
+}

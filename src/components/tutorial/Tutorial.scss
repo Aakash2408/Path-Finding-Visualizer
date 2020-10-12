@@ -1,0 +1,21 @@
+.tutorial {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 20px 5px 0 5px;
+  font-family: "Roboto", sans-serif;
+  color: white;
+
+  li {
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+
+  .emphasize {
+    color: blueviolet;
+    font-weight: bold;
+  }
+}
