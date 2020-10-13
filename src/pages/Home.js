@@ -5,6 +5,7 @@ import Grid from "../components/grid/Grid";
 import Filter from "../components/filter/Filter";
 import Tutorial from "../components/tutorial/Tutorial";
 import Legend from "../components/legend/Legend";
+import ShortestPath from "../components/shortestpath/ShortestPath";
 import idea from "../assets/buttons/idea.png";
 import { openModal } from "../redux/modal/ModalActions";
 import github from "../assets/other/github.png";
@@ -99,12 +100,20 @@ class Home extends Component {
                     >
                       <Tutorial></Tutorial>
                     </div>
+                    
                   )
+
                 }
+                
               >
                 <img src={idea} alt="idea" className="idea-icon" /> Show
                 Tutorial
               </button>
+            </div>
+            <div>
+            <div>
+                      <ShortestPath></ShortestPath>
+                    </div>
             </div>
           
           </div>

@@ -1,0 +1,22 @@
+:root {
+    box-sizing: border-box;
+    --visited: #ef6c00;
+    --transition: #ffcc80;
+    /* --shortest: white; */
+  }
+.shortest-path {
+    background-image: linear-gradient(var(--shortest), var(--shortest));
+    background-color: var(--visited);
+  }
+.shortestPathCard {
+    background-image: linear-gradient(
+      to bottom right,
+      var(--visited),
+      var(--transition)
+    );
+  }
+.shortest-path-anim {
+    background-color: var(--visited);
+    background-image: linear-gradient(var(--shortest), var(--shortest));
+    background-position: 50% 50%;
+  }
