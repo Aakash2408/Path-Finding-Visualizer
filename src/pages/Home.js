@@ -6,6 +6,7 @@ import Filter from "../components/filter/Filter";
 import Tutorial from "../components/tutorial/Tutorial";
 import Legend from "../components/legend/Legend";
 import ShortestPath from "../components/shortestpath/ShortestPath";
+import Visited from "../components/visited/Visited";
 import idea from "../assets/buttons/idea.png";
 import { openModal } from "../redux/modal/ModalActions";
 import github from "../assets/other/github.png";
@@ -111,8 +112,9 @@ class Home extends Component {
               </button>
             </div>
             <div>
-            <div>
-                      <ShortestPath></ShortestPath>
+            <div >
+                      <ShortestPath style={{marginTop:"20px !important;"}}></ShortestPath>
+                      <Visited></Visited>
                     </div>
             </div>
           

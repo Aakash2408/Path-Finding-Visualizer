@@ -7,7 +7,7 @@
   .top {
     width: 100%;
     height: 10%;
-    // background-image: url("../assets/tiles/backgroundForest.png");`
+    background-image: url("../assets/tiles/backgroundForest.png");
     background-size: contain;
     background-repeat: repeat-x;
     position: absolute;
@@ -21,7 +21,7 @@
       color: #283593;
       padding: 0 20px;
       text-decoration: underline;
-      text-decoration-style: dashed;
+     
       flex-grow: 2;
     }
 
@@ -126,7 +126,7 @@
     .filter-container {
       width: 100%;
       border: 5px solid white;
-      border-radius: 40px;
+      border-radius: 10px;
       background-image: #222b45 !important;
       background-size: 32px;
       // background-repeat: repeat;

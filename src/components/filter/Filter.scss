@@ -2,7 +2,7 @@
   height: 100%;
   width: 100%;
   display: flex;
-  margin-top: 25%;
+  // margin-top: 25%;
   justify-content: center;
   align-items: center;
   flex-direction: column;
@@ -16,14 +16,14 @@
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     color: white;
-    font-size: 20px;
+    font-size: 12px;
     text-align: center;
     margin: 20px 0 0 0;
     border: 4px dashed white;
     padding: 5px;
 
     .complexity {
-      color: darkslateblue;
+      color: rgb(30, 187, 192);
       font-weight: bold;
     }
   }
