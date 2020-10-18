@@ -111,13 +111,6 @@ class Home extends Component {
                 Tutorial
               </button>
             </div>
-            <div>
-            <div >
-                      <ShortestPath style={{marginTop:"20px !important;"}}></ShortestPath>
-                      <Visited></Visited>
-                    </div>
-            </div>
-          
           </div>
           
         </div>
