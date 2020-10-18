@@ -15,12 +15,15 @@ const Legend = () => {
         <li>
           <img src={home} alt="target" /> - Destination
         </li>
-        <div style={{ display: 'flex', alignItems: 'center' }}>
-            <div className="visited-box"></div>
-            <div>&nbsp;- Visited</div>
-          </div>
+        
         <li>
           <img src={weight} alt="weight" /> - Weight
+        </li>
+        <li>
+        <div style={{ display: 'flex', alignItems: 'center' }}>
+            <div className="visited-wall"></div>
+            <div>&nbsp;- Wall</div>
+          </div>
         </li>
         <li>
           <div style={{ display: 'flex', alignItems: 'center' }}>
