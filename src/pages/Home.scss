@@ -7,7 +7,7 @@
   .top {
     width: 100%;
     height: 10%;
-    background: #151a35;
+    background: #222b45;
     border:1px  white !important;
     background-size: contain;
     background-repeat: repeat-x;
@@ -37,10 +37,10 @@
       background: url("../assets/buttons/blue_button_normal.png") no-repeat;
       margin-right: 20px;
       width: fit-content;
-      height: 49px;
+      height: 49px;   
       border: none;
       margin: 0 30px;
-
+               
       &:hover {
         opacity: 0.9;
       }

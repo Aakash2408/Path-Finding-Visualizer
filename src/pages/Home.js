@@ -30,7 +30,7 @@ class Home extends Component {
       <div className="home">
         <div className="top">
           <div>
-            <h1 className="title">Pathfinding Visualizer</h1>
+            <h1 className="title" style={{fontSize:"20px !important"}}>Pathfinding Visualizer</h1>
           </div>
           <div className="top-button-container">
             <div>
@@ -85,7 +85,7 @@ class Home extends Component {
           </div>
 
           <div style={{ width: "20%",marginTop:"1%", marginRight:"5%", height: "fit-content" }}>
-            <div className="filter-container">
+            <div className="filter-container" style={{ background:"#222b45"}}>
               <Filter></Filter>
             </div>
             <div className="show-tutorial">
@@ -95,8 +95,8 @@ class Home extends Component {
                     <div
                       style={{
                         backgroundColor: "#2f2f2f",
-                        border: "5px solid white",
-                        borderRadius: "40px",
+                        border: "15px solid white !important",
+                        borderRadius: "0px",
                       }}
                     >
                       <Tutorial></Tutorial>

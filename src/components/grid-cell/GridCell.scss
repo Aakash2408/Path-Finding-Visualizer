@@ -18,8 +18,9 @@
   }
 
   &.wall {
-    background: black repeat;
-    background-size: contain;
+    
+    background-size: cover !important;
+    background:black;
   }
 
   &.player {
