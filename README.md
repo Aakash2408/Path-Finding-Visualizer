@@ -13,3 +13,7 @@ Algorithms Implemented-
 
 
 
+![alt text](https://raw.githubusercontent.com/aakash2408/Path-Finding-Visualizer/master/screenshots/1.png "screenshot 1")
+![alt text](https://raw.githubusercontent.com/aakash2408/Path-Finding-Visualizer/master/screenshots/2.png "screenshot 2")
+![alt text](https://raw.githubusercontent.com/aakash2408/Path-Finding-Visualizer/master/screenshots/3.png "screenshot 3")
+![alt text](https://raw.githubusercontent.com/aakash2408/Path-Finding-Visualizer/master/screenshots/4.png "screenshot 4")

@@ -13,8 +13,8 @@ class App extends Component {
       <div
         style={{
           backgroundColor: "#2f2f2f",
-          border: "5px solid white",
-          borderRadius: "40px",
+          border: "15px solid white",
+          borderRadius: "0px",
         }}
       >
         <Tutorial></Tutorial>
