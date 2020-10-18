@@ -1,0 +1,35 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.HostingEmulator = void 0;
+const serveHosting = require("../serve/hosting");
+const types_1 = require("../emulator/types");
+const constants_1 = require("./constants");
+class HostingEmulator {
+    constructor(args) {
+        this.args = args;
+    }
+    start() {
+        this.args.options.host = this.args.host;
+        this.args.options.port = this.args.port;
+        return serveHosting.start(this.args.options);
+    }
+    connect() {
+        return Promise.resolve();
+    }
+    stop() {
+        return serveHosting.stop();
+    }
+    getInfo() {
+        const host = this.args.host || constants_1.Constants.getDefaultHost(types_1.Emulators.HOSTING);
+        const port = this.args.port || constants_1.Constants.getDefaultPort(types_1.Emulators.HOSTING);
+        return {
+            name: this.getName(),
+            host,
+            port,
+        };
+    }
+    getName() {
+        return types_1.Emulators.HOSTING;
+    }
+}
+exports.HostingEmulator = HostingEmulator;

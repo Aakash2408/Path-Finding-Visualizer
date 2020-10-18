@@ -1,15 +1,17 @@
 # Pathfinding Visualizer
 
+# Demo
+https://pathfinding-visualizer-31d8e.web.app/
 
 
 Algorithms Implemented-
 
-- Breadth First Search
-- Depth First Search
-- Dijkstra's algorithm
-- A* algorithm
-- Bidirectional Dijkstra
-- Bidirectional A*
+    - Breadth First Search
+    - Depth First Search
+    - Dijkstra's algorithm
+    - A* algorithm  
+    - Bidirectional Dijkstra
+    - Bidirectional A*
 
 
 ## Screenshots
