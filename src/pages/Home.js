@@ -84,7 +84,7 @@ class Home extends Component {
             </div>
           </div>
 
-          <div style={{ width: "20%",marginTop:"1%", marginRight:"5%", height: "fit-content" }}>
+          <div style={{ width: "20%",marginTop:"2%", marginRight:"5%", height: "fit-content" }}>
             <div className="filter-container" style={{ background:"#222b45"}}>
               <Filter></Filter>
             </div>

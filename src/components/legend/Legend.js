@@ -15,9 +15,10 @@ const Legend = () => {
         <li>
           <img src={home} alt="target" /> - Destination
         </li>
-        <li>
-          <img src={wall} alt="wall" /> - Wall
-        </li>
+        <div style={{ display: 'flex', alignItems: 'center' }}>
+            <div className="visited-box"></div>
+            <div>&nbsp;- Visited</div>
+          </div>
         <li>
           <img src={weight} alt="weight" /> - Weight
         </li>
