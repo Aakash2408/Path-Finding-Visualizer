@@ -1,10 +1,11 @@
 # Pathfinding Visualizer
+<img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/aakash2408/Path-Finding-Visualizer"> <img alt="npm" src="https://img.shields.io/npm/v/npm"> <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/aakash2408/Path-Finding-Visualizer">   ![GitHub package.json version](https://img.shields.io/github/package-json/v/Aakash2408/Path-Finding-Visualizer) 
 
 # Demo
 https://pathfinding-visualizer-31d8e.web.app/
 
 
-Algorithms Implemented-
+# Algorithms Implemented-
 
     - Breadth First Search
     - Depth First Search
